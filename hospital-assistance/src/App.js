@@ -1,9 +1,14 @@
 import React from "react";
 import "./App.css";
-import Contribution from "./Contributions/contribution";
+import Contribution from "./contribution";
 
-function App() {
-  return <Contribution />;
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <Contribution />
+      </div>
+    );
+  }
 }
-
 export default App;
